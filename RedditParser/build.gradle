@@ -1,0 +1,16 @@
+group 'com.scoop-software.gmbh'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation "net.dean.jraw:JRAW:1.0.0"
+}
